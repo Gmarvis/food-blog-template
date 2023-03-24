@@ -189,6 +189,11 @@ footer {
   background-color: lightgray;
 }
 
+.bgb {
+  color: #fff;
+  background-color: #000!important;
+}
+
 .blog-text p {
   margin: 0;
 }
