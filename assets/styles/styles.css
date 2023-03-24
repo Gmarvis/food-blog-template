@@ -89,6 +89,14 @@ span {
   padding: 10px 12px;
 }
 
+.c3 p span {
+    background-color: #616161;
+    padding: 6px;
+    margin: 0 4px;
+    line-height: 30px;
+    font-size: 12px;
+  }
+
 .number-nav-box i:hover {
   background-color: #000;
   color: #fff;
@@ -181,22 +189,15 @@ footer {
   background-color: lightgray;
 }
 
-.blog-text p{
+.blog-text p {
   margin: 0;
-}
-
-.c3 p span {
-  background-color: #616161;
-  padding: 6px;
-  margin: 0 4px;
-  line-height: 30px;
-  font-size: 12px;
 }
 
 @media screen and (max-width: 770px) {
   .main-container {
     margin: 0 20px;
   }
+
   .about-section img {
     width: 100%;
   }
@@ -221,7 +222,7 @@ footer {
   }
 
   .footer-content {
-  width: 100%;
+    width: 100%;
   }
 
   .blog-post {
