@@ -90,12 +90,12 @@ span {
 }
 
 .c3 p span {
-    background-color: #616161;
-    padding: 6px;
-    margin: 0 4px;
-    line-height: 30px;
-    font-size: 12px;
-  }
+  background-color: #616161;
+  padding: 6px;
+  margin: 0 4px;
+  line-height: 30px;
+  font-size: 12px;
+}
 
 .number-nav-box i:hover {
   background-color: #000;
@@ -138,7 +138,7 @@ hr {
   margin: 20px 0;
 }
 
-.about-content span {
+.about-content .sub-header {
   font-style: italic;
 }
 
