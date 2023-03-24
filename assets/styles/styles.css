@@ -63,6 +63,11 @@ nav ul li {
   margin: 10px 0;
 }
 
+.about-content h3,
+p {
+  margin: 20px 0;
+}
+
 .food-image p {
   margin-bottom: 10px;
 }
@@ -140,11 +145,6 @@ hr {
 
 .about-content .sub-header {
   font-style: italic;
-}
-
-.about-content h3,
-p {
-  margin: 20px 0;
 }
 
 footer {
