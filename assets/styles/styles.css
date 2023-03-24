@@ -1,0 +1,236 @@
+@import url("https://fonts.googleapis.com/css2?family=Karma:wght@300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  list-style: none;
+  width: 100;
+  font-family: karma;
+}
+
+.main-container {
+  margin: 0 70px;
+}
+
+nav {
+  display: block;
+  background-color: #fff;
+  position: sticky;
+  top: 0;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 16px;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+.food-container {
+  margin: 30px 0;
+  padding: 8px 0px;
+  width: 100%;
+  align-items: center;
+}
+
+.food {
+  padding: 16px 0;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+}
+
+.food-image {
+  width: 278px;
+  align-items: center;
+  height: auto;
+}
+
+.food-image img{
+  width: 278px;
+  height: auto;
+}
+
+.food-image h3 {
+  margin: 10px 0;
+}
+
+.food-image p {
+  margin-bottom: 10px;
+}
+
+.number-nav {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.number-nav-box {
+  display: flex;
+  justify-content: center;
+}
+
+.number-nav-box i, span {
+  margin: 0 3px 20px;
+  padding: 10px 12px;
+}
+
+.number-nav-box .active {
+  background-color: #000;
+  color: #fff;
+  padding: 10px 12px;
+}
+
+.number-nav-box i:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.number-nav-box span:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+hr {
+  margin-top: 0;
+  border: none;
+  background-color: lightgray;
+  height: 1px;
+}
+
+.about-section {
+  margin: 30px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.about-section h2 {
+  padding: 50px 0;
+  color: #000;
+}
+
+.about-section img {
+  width: 65%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about-content {
+  margin: 20px 0;
+}
+
+.about-content span {
+  font-style: italic;
+}
+
+.about-content h3, p {
+  margin: 20px 0;
+}
+
+footer {
+  margin: 40px 0 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-content {
+  width: 356px;
+}
+
+.blog-post {
+  display: flex;
+  flex-direction: row;
+  padding: 16px;
+}
+
+.c1 a {
+  color: #000;
+}
+
+.c2 hr {
+  margin: 0;
+}
+
+.blog-post img {
+  width: 60px;
+  height: 60px;
+}
+
+.blog-text {
+  margin: 16px 5px 0;
+}
+
+.blog-post:hover {
+  background-color: lightgray;
+}
+
+.blog-text p{
+  margin: 0;
+}
+
+.c3 p span {
+  background-color: #616161;
+  padding: 6px;
+  margin: 0px 4px;
+  line-height: 30px;
+  font-size: 12px;
+}
+
+@media screen and (max-width: 770px) {
+  .main-container {
+    margin: 0 20px;
+  }
+  
+  .about-section img {
+    width: 100%;
+  }
+
+  footer {
+    display: block;
+  }
+
+  .footer-container {
+    display: block;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-bottom: 45px;
+  }
+
+  .c3 p {
+    display: block;
+    flex-direction: row;
+  }
+  .c3 p span {
+    margin: 0;
+  }
+
+.footer-content {
+  width: 100%;
+}
+
+.blog-post {
+    padding: 10px;
+    margin: 9px 0;
+
+}
+
+.food-image img{
+    width: 100%;
+    height: auto;
+}
+}
