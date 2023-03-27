@@ -20,6 +20,7 @@ nav {
   background-color: #fff;
   position: sticky;
   top: 0;
+  font-size: 24px;
 }
 
 nav ul {
@@ -94,12 +95,17 @@ span {
   padding: 10px 12px;
 }
 
+.c3  {
+  display: flex;
+  flex-direction: column;
+}
+
 .c3 p span {
   background-color: #616161;
   color: #fff;
-  padding: 6px;
-  margin: 0 4px;
-  line-height: 30px;
+  padding:  0 10px;
+  line-height: 1.5;
+  font-size: 12px;
   font-size: 12px;
 }
 
